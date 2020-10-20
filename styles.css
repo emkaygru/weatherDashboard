@@ -1,0 +1,77 @@
+/* CSS HEX 
+--usafa-blue: #26547cff;
+--almond: #dcccbbff;
+--flame: #d95d39ff;
+--dark-green: #01200fff;
+--dark-jungle-green: #011502ff;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+
+body {
+    background-color: #DCCCBB;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.header {
+    background-color: #26547C;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #252525;
+}
+
+.city-search {
+    background-color: rgba(1, 21, 2, 0.137);
+    padding: 10px;
+}
+
+.forecast {
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.9em;
+    background-color: #26547C;
+    color: white;
+
+}
+
+.btn {
+    color: white;
+    background-color: #26547C;
+}
+
+
+
+.fiveday {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.fiveday h3 {
+    font-size: 28px;
+    color: #252525;
+}
+
+span {
+    font-size: 1em;
+}
+
+li:hover {
+    background-color: lightslategray;
+    text-decoration: underline;
+}
