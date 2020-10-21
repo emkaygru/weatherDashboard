@@ -36,7 +36,7 @@ function displayWeather(event) {
 
 function currentCityWeather(city) {
     // query URL for API 
-    let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial" + "&APPID=" + apiKey;
+    let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + apiKey;
     // AJAX call 
     $.ajax({
         url: queryURL,
@@ -82,7 +82,7 @@ function currentCityWeather(city) {
 // uv index function
 function uvIndex(ln, lt) {
     // uv index query URL 
-    let uvQURL = "https://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&units=imperial" + "&lat=" + lt + "&lon=" + ln;
+    let uvQURL = "https://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&lat=" + lt + "&lon=" + ln;
     // ajax call 
     $.ajax({
         url: uvQURL,
@@ -94,7 +94,7 @@ function uvIndex(ln, lt) {
 
 function forecast(cityid) {
     let dayover = false;
-    let queryForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityid + "&units=imperial" + "&appid=" + apiKey;
+    let queryForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityid + "&appid=" + apiKey;
     // ajax call 
     $.ajax({
         url: queryForecastURL,
