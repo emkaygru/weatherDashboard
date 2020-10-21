@@ -6,7 +6,7 @@ Homework #5 for MSU Full Stack Web Dev Bootcamp
 
 Link to working app: [Weather Dashboard](https://emkaygru.github.io/weatherDashboard/)
 
-### Use the OpenWeather API to retrieve weather data for cities. The documentation includes a section called “How to start” that will provide basic setup and usage instructions. Use `
+### Use the OpenWeather API to retrieve weather data for cities. 
 
 [image:54A36043-EE07-4B07-AAF2-91E61CEF78DF-99195-000177B9B998847F/Screen Shot 2020-10-20 at 9.06.37 PM.png]
 
