@@ -8,7 +8,7 @@ Link to working app: [Weather Dashboard](https://emkaygru.github.io/weatherDashb
 
 ### Use the OpenWeather API to retrieve weather data for cities. The documentation includes a section called “How to start” that will provide basic setup and usage instructions. Use `
 
-![](Weather%20Dashboard/Screen%20Shot%202020-10-20%20at%209.06.37%20PM.png)
+[image:54A36043-EE07-4B07-AAF2-91E61CEF78DF-99195-000177B9B998847F/Screen Shot 2020-10-20 at 9.06.37 PM.png]
 
 
 [OpenWeather API](https://openweathermap.org/api)
@@ -26,3 +26,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast``
+
+
+
+
